@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Step 1 & 2 Success!</h1><p>The app is containerized and running.</p>');
+  res.send('<h1>Step 1 & 2 Success!</h1><p>The app is containerized and running SUCCESSFULLY.</p>');
 });
 
 // Step 6: Basic Health Endpoint
